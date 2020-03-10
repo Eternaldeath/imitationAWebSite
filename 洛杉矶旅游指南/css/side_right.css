@@ -1,0 +1,67 @@
+/*这是右侧边栏样式*/
+
+@charset "utf-8";
+
+.side_right
+{
+	width: 48px;
+	height: 348px;
+	position: fixed;
+	right: 0;
+	bottom: 110px;
+}
+
+.side_right ul
+{
+	list-style: none;
+}
+
+
+.side_right ul li
+{
+	display: block;
+	height: 48px;
+	background: #fff;
+	line-height: 48px;
+	margin: 5px 0;
+	cursor: pointer;
+}
+
+.side_right ul li a
+{
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0 15px;
+}
+
+/*简单的旋转效果*/
+.side_right ul li a img
+{
+	/*跨浏览器兼容*/
+	-webkit-transition: -webkit-transform 0.5s ease-out;
+	-moz-transition: -moz-transform 0.5s ease-out;
+	-o-transition: -o-transform 0.5s ease-out;
+	-ms-transition: -ms-transform 0.5s ease-out;
+}
+
+.side_right ul li a img:hover
+{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+
+
+.side_right ul li:nth-child(7)
+{
+	background: #2ea8d2;
+}
+
+.side_right ul li:nth-child(7):hover
+{
+	background: #08b9f5;
+}

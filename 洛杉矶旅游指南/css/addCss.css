@@ -1,0 +1,32 @@
+.topLine{
+  width: 0px;
+  height: 1px;
+  background: black;
+  position:absolute;
+  left: 0;
+  top: -1px;
+ }
+ .bottomLine{
+  width: 0px;
+  height: 1px;
+  background: black;
+  position:absolute;
+  left: 0;
+  bottom: -1px;
+ }
+ .leftLine{
+  width: 1px;
+  height: 0px;
+  background: black;
+  position:absolute;
+  left: -1;
+  bottom: -1px;
+ }
+ .rightLine{
+  width: 1px;
+  height: 0px;
+  background: black;
+  position:absolute;
+  right: -1px;
+  top: -1px;
+ }
